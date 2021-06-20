@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="EN">
+  <title>Covid-19 Dashbord</title>
+  <meta charset="utf-8">
+  <!--<script src="https://use.fontawesome.com/8ba0850ae4.js"></script>-->
+  <!--<link rel="stylesheet" type="text/css" href="all.css">-->
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Styling.css">
+</head>
+<body>
+<div class="container text-center">
+  <h1 class="">Covid-19 Cases In <span id="country"></span> <img src="" alt="" id="flag"></h1>
+  <div class="card-deck text-center">
+    <div class="card mb-2">
+      <div class="card-body bg-primary text-light rounded">
+        <h5 class="card-title"><i class="fas fa-tachometer-alt fa-2x"></i></h5> 
+        <h4 class="card-text">Active Cases</h4>
+        <p class="card-text badge badge-outline-light" id="Active_Cases"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body bg-info text-light rounded">
+        <h5 class="card-title"><i class="fas fa-list fa-2x"></i></h5>
+        <h4 class="card-text">Total Cases</h4>
+        <p class="card-text badge badge-outline-light" id="Total_Cases"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body bg-warning text-light rounded">
+        <h5 class="card-title"><i class="fas fa-times-circle fa-2x"></i></h5>
+        <h4 class="card-text">Critical Cases</h4>
+        <p class="card-text badge badge-outline-light" id="Critical_Cases"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body bg-danger text-light rounded">
+        <h5 class="card-title"><i class="fas fa-skull-crossbones fa-2x"></i></h5>
+        <h4 class="card-text">Total Death</h4>
+        <p class="card-text badge badge-outline-light" id="Total_Death"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body bg-success text-light rounded">
+        <h5 class="card-title"><i class="fas fa-check-square fa-2x"></i></h5>
+        <h4 class="card-text">Recovered Cases</h4>
+        <p class="card-text badge badge-outline-light" id="Recovered_Cases"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body bg-secondary text-light rounded">
+        <h5 class="card-title"><i class="fas fa-eye fa-2x"></i></h5>
+        <h4 class="card-text">Total Test Done</h4>
+        <p class="card-text badge badge-outline-light" id="Total_Test_Done"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body bg-dark text-light rounded">
+        <h5 class="card-title"><i class="fas fa-briefcase-medical fa-2x"></i></h5>
+        <h4 class="card-text">Today's Cases</h4>
+        <p class="card-text badge badge-outline-light" id="Today's_Cases"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>   
+    <div class="card">
+      <div class="card-body bg-secondary text-light rounded">
+        <h5 class="card-title"><i class="far fa-smile fa-2x"></i></h5>
+        <h4 class="card-text">Today Recovered</h4>
+        <p class="card-text badge badge-outline-light" id="Today_Recovered"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body bg-danger text-light rounded">
+        <h5 class="card-title"><i class="fas fa-book-dead fa-2x"></i></h5>
+        <h4 class="card-text">Today Death</h4>
+        <p class="card-text badge badge-outline-light" id="Today_Death"><i class="fas fa-spinner"></i></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="Script.js"></script>
+<div class="fixed-bottom">Made By Raunaq Singh & Shravant Kadiyala &#169</div>
+</body>
+</html>
